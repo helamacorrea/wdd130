@@ -1,0 +1,23 @@
+
+/* https://coolors.co/47a7c2-a2bba5-fccf88-ffde70 */
+:root {
+    --primary-color: #47A7C2;
+    --secondary-color: #A2BBA5; 
+    --accent1-color: #FCCF88; 
+    --accent2-color: #FFDE70;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+}
+
+p {
+    font-weight: 400;
+}
+

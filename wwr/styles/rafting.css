@@ -1,0 +1,73 @@
+
+/* https://coolors.co/47a7c2-a2bba5-fccf88-ffde70 */
+:root {
+    --primary-color: #47A7C2;
+    --secondary-color: #A2BBA5; 
+    --accent1-color: #FCCF88; 
+    --accent2-color: #FFDE70;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+}
+
+h1,h2 {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    color: var(--accent2-color);
+}
+
+p {
+    font-weight: 400;
+    color: var(--secondary-color)
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+.hero {
+    position: relative;
+    width: 100%; 
+    height: 500px;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px; 
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+     
+}
+
+
+.hero article {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    right: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 1rem;
+    z-index: 1;
+    overflow: auto; /*clear the float*/
+  }
+  
+  .hero article img {
+    float: right; /* Float image right */
+    width: 150px;
+    height: auto;
+    margin-left: 1rem;
+  }
+  
+  .hero article p {
+      color: white; /* to make sure the text is visible */
+  }
