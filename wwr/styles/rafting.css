@@ -25,6 +25,7 @@ h1,h2 {
     font-family: "Limelight", sans-serif;
     font-weight: 400;
     color: var(--accent2-color);
+ 
     
     }
 
@@ -79,6 +80,7 @@ main {
     text-align: center;
     background-color: rgba(0, 0, 0, 0.5);
     color: var(--accent2-color);
+    
     
      
 }
@@ -272,3 +274,14 @@ footer nav.sociallinks img {
     background-color: var(--accent1-color);
     color: black;
 }
+
+.contact-info h1,h2 {
+    background-color: #2c5f63; /* dark teal */
+    color: var(--accent2-color); /* bright yellow */
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  }
