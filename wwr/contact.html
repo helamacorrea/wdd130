@@ -23,7 +23,7 @@
     </header>
     <main>
         <section class="contact-info">
-            <h2>Contact Us</h2>
+            <h1>Contact Us</h1>
             <p>Address: 123 River Lane, Rapids City, RC 12345</p>
             <p>Phone: (123) 456-7890</p>
             <p>Email: contact@downtheriver.com</p>
@@ -63,14 +63,14 @@
               <input type="email" id="email" name="email" required>
       
               <p>Purpose of Message:</p>
-              <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
-              <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
-              <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label><br>
+              <label><input type="radio" id="general" name="purpose" value="general" required> General Inquiry</label><br>
+              <label><input type="radio" id="reservation" name="purpose" value="reservation"> Reservation Question</label><br>
+              <label><input type="radio" id="suggestion" name="purpose" value="suggestion"> Website Suggestion</label><br>
       
               <label for="message">Message:</label>
               <textarea id="message" name="message" rows="5" required></textarea>
       
-              <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label><br>
+              <label><input type="checkbox" id="subscribe" name="subscribe"> Please subscribe me to the monthly newsletter</label><br>
       
               <button type="submit" class="submit-button">Send Message</button>
             </form>
