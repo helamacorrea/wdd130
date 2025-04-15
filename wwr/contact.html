@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="A page to submit forms about questions or others">
+    <meta name="author" content="Helamã Verardo Petri Corrêa">
+    <title>Contact Us Page</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Limelight&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <img src="images/wwr-logo.webp" alt="Logo">
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="trips.html">Trips</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+    <main>
+        <section class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Address: 123 River Lane, Rapids City, RC 12345</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Email: contact@downtheriver.com</p>
+            <iframe 
+              src="https://www.google.com/maps/embed?..." 
+              width="600" 
+              height="450" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </section>
+      
+          <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <figure>
+              <img src="images/employee1.webp" alt="Smiling employee 1">
+              <figcaption>Jane Doe - Guide</figcaption>
+            </figure>
+            <figure>
+              <img src="images/employee2.webp" alt="Smiling employee 2">
+              <figcaption>Emma Smith - Safety Instructor</figcaption>
+            </figure>
+            <figure>
+              <img src="images/employee3.webp" alt="Smiling employee 3">
+              <figcaption>Emily Stone - Trip Planner</figcaption>
+            </figure>
+          </section>
+      
+          <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+      
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+      
+              <p>Purpose of Message:</p>
+              <label><input type="radio" name="purpose" value="general" required> General Inquiry</label><br>
+              <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label><br>
+              <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label><br>
+      
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+      
+              <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label><br>
+      
+              <button type="submit" class="submit-button">Send Message</button>
+            </form>
+          </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 | Down the River | Helamã Verardo Petri Corrêa, Brasil.</p>
+
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+              <img src="images/facebook-logo.webp" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+              <img src="images/x-logo.webp" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+              <img src="images/instagram-logo.webp" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+  </body>
+</html>
