@@ -1,9 +1,9 @@
 /* https://coolors.co/47a7c2-a2bba5-fccf88-ffde70 */
 :root {
-    --primary-color: #47A7C2;
-    --secondary-color: #A2BBA5;
-    --accent1-color: #FCCF88;
-    --accent2-color: #FFDE70;
+    --primary-color: #226B88;     
+    --secondary-color: #5D7C67;   
+    --accent1-color: #E8A735;    
+    --accent2-color: #FFDE70;  
 }
 
 body {
@@ -26,7 +26,7 @@ h1,h2 {
     font-family: "Limelight", sans-serif;
     font-weight: 400;
     color: var(--accent2-color);
-    -webkit-text-stroke: 0.2px black;
+    
  
     
     }
@@ -83,8 +83,6 @@ main {
     background-color: rgba(0, 0, 0, 0.5);
     color: var(--accent2-color);
     
-    
-     
 }
 
 
@@ -134,8 +132,7 @@ main {
 }
 
 .history p {
-    color: var(--secondary-color);
-    width: 50%; 
+    width: 70%;
 
 }
 
@@ -208,6 +205,44 @@ footer nav.sociallinks img {
     border: none;
     margin: 1rem 0;
 }
+/* very important */
+/* .contact-info h1 {
+    text-align: center;
+    background-color: var(--primary-color); 
+    background-color: var(--primary-color); 
+    color: var(--accent2-color); 
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0rem;
+
+} */
+
+.contact-page h1 {
+    text-align: center;
+    background-color: var(--primary-color); 
+    background-color: var(--primary-color); 
+    color: var(--accent2-color); 
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0rem;
+
+}
+.contact-page h2 {
+    text-align: center;
+    background-color: var(--primary-color); 
+    background-color: var(--primary-color); 
+    color: var(--accent2-color); 
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0rem;
+
+}
 
 .employee-profiles {
     display: flex;
@@ -277,6 +312,25 @@ footer nav.sociallinks img {
     color: black;
 }
 
+.signup-button {
+    background: var(--primary-color);
+    color: white;
+    padding: 0.85rem 2rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    transition: transform 0.2s ease, background 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  }
+  
+  .signup-button:hover {
+    transform: scale(1.05);
+    background: var(--accent2-color);
+    color: black;
+  }
 /* 
 option to contact
 .contact-info h1 {
@@ -294,7 +348,7 @@ option to contact
 
   /* === CTA SECTION === */
 .cta {
-    background-color: #f0f8f8;
+    background-color: var(--primary-color);
     text-align: center;
     padding: 2rem;
     border-radius: 10px;
@@ -308,8 +362,8 @@ option to contact
 
 .cta-button {
     display: inline-block;
-    background-color: var(--primary-color);
-    color: white;
+    background-color: white;
+    color: var(--primary-color);
     padding: 1rem 2rem;
     margin-top: 1rem;
     text-decoration: none;
@@ -317,10 +371,13 @@ option to contact
     font-weight: bold;
     transition: background-color 0.3s;
 }
+.cta p {
+    color: white;
+}
 
 .cta-button:hover {
     background-color: var(--accent1-color);
-    color: black;
+    color: white;
 }
 
 /* ---GRID SECTION --= */
@@ -361,6 +418,17 @@ option to contact
     border-radius: 10px;
     margin: 2rem auto;
     box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.newsletter h2 {
+    background-color: var(--primary-color); 
+    color: var(--accent2-color); 
+    padding: 2rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
 }
 
 .newsletter form {
@@ -422,10 +490,19 @@ option to contact
 }
 
 .trip-table h2 {
-    margin-left: 20px;
-    margin-top: 10px;
-    padding-top: 15px;
+
     text-align: center;
+    background-color: var(--primary-color); 
+    background-color: var(--primary-color); 
+    color: var(--accent2-color); 
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0rem;
+    margin-top: 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+
 }
 
 /* === RESPONSIVE TRIPS LAYOUT === */
@@ -476,3 +553,4 @@ option to contact
     align-items: center;
 
 }
+
