@@ -277,7 +277,8 @@ footer nav.sociallinks img {
     color: black;
 }
 
-
+/* 
+option to contact
 .contact-info h1 {
     background-color: #2c5f63; 
     color: var(--accent2-color); 
@@ -288,7 +289,7 @@ footer nav.sociallinks img {
     margin-bottom: 1rem;
     box-shadow: 0 4px 6px rgba(0,0,0,0.15);
   }
-
+ */
 
 
   /* === CTA SECTION === */
