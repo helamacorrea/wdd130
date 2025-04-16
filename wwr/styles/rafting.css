@@ -359,6 +359,9 @@ option to contact
 .cta h1 {
     font-size: 4vw;
 }
+.cta h2 {
+    font-size: 3.5vw;
+}
 
 .cta-button {
     display: inline-block;
